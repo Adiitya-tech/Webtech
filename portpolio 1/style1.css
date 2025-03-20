@@ -1,0 +1,273 @@
+main {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* position: sticky;
+    top: 0; */
+  }
+  #mainbody {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(33, 54, 246), white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .namebox h1 {
+    font-size: 130px;
+    margin: 0;
+    padding: 0;
+  }
+  .namebox p {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+  }
+  nav {
+    /* width: 4.1vw;
+      height: 47.7vh; */
+    /* background: black; */
+    position: fixed;
+    left: 20px;
+  }
+  nav > div {
+    width: 4vw;
+    height: 4vw;
+    background: black;
+    border-radius: 50%;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav > div > a > i {
+    color: white;
+    font-size: 30px;
+  }
+  .aboutSection {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: sticky;
+    top: 0; */
+    background-image: linear-gradient(white, rgb(51, 70, 242));
+  }
+  .m1 {
+    width: 80%;
+    height: 80%;
+    display: flex;
+  }
+  .a1 {
+    width: 50%;
+    height: 97.5%;
+    background-color: rgba(0, 0, 0, 0.306);
+    border-radius: 30px;
+    margin: 10px;
+  }
+  img {
+    height: 570px;
+    width: 500px;
+  }
+  .about {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    border-radius: 30px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+  }
+  .nh1 {
+    font-size: 50px;
+  }
+  .a2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+    color: rgb(45, 38, 38);
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin: 10px;
+  }
+  .about > div {
+    width: 50%;
+    height: 100%;
+  }
+  .about li {
+    /* padding: 10px; */
+  }
+  .about ul {
+    /* padding: px; */
+  }
+  .h3 {
+    padding-left: 21px;
+  }
+  .aboutSection > main > article {
+    background-color: rgba(231, 224, 224, 0.872);
+  }
+  .projects {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(47, 68, 252), white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .projects > main {
+    width: 80%;
+    height: 90%;
+    border: 3px solid;
+  }
+  .projects > main > h1 {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .ar1 {
+    width: 100%;
+    height: 79%;
+    background-color: rgba(0, 0, 0, 0.306);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .projects > main > article > div {
+    width: 45%;
+    height: 45%;
+    /* border: 3px solid; */
+    background: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    color: rgba(0, 0, 0, 0.902);
+  }
+  .projects > main > article > div > h1{
+     font-size: 30px;
+  }
+  .projects > main > article > div > p{
+  font-size: 20px;
+  margin-top: -30px;
+
+}
+
+  .experience, .achievement, .contact{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(33, 54, 246), white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .experience >main, .achievement > main, .contact > main{
+    width: 80%;
+    height: 80%;
+    
+  }
+  .experience > main > h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    text-decoration: underline;
+  }
+  .experience > main > article{
+    background-color: rgba(0, 0, 0, 0.178);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    height: 70%;
+  }
+  .achievement > main > article > div {
+    width: 45%;
+    height: 45%;
+    /* border: 3px solid; */
+    background: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    color: rgba(0, 0, 0, 0.902);
+  }
+  .achievement > main > article > div > h1{
+     font-size: 30px;
+  }
+  .achievement > main > article > div > p{
+  font-size: 20px;
+  margin-top: -30px;
+}
+.achievement {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(47, 68, 252), white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .achievement > main {
+    width: 80%;
+    height: 90%;
+  }
+  .achievement > main > h1 {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .contact > main > h1{
+    font-size: 50px;
+    text-align: center;
+    
+  }
+  .contact > main > article{
+    display: flex;
+    width: 90%;
+    height: 70%;
+    margin: 0 auto;
+    gap: 30px;
+  }
+  .contact > main > article >div{
+    
+    width: 50%;
+    height: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+  }
+  .contact > main > article >div>p>iframe{
+    height: 200px;
+  }
+div> p > a{
+  text-decoration: none;
+  color: brown;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+form > input , form > textarea {
+  width: 80%;
+  height:20px;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 20px;
+  border: none; 
+  
+}
+
